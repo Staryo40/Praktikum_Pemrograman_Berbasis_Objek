@@ -6,7 +6,8 @@ Repositori koleksi soal praktikum mata kuliah Pemrograman Berorientasi Objek IF2
 4. Virtual 
 5. Template dan Generics
 6. Exception Handling  
-Terdapat juga materi setelah UTS hingga akhir perkuliahan dengan bahasa pemrograman Java:
+
+Terdapat juga materi setelah UTS hingga akhir perkuliahan dengan bahasa pemrograman Java:  
 1. OOP di Java
 2. Inheritance
 3. Interface
