@@ -46,6 +46,7 @@ public class MoneyInBank implements MoneyTransaction{
      * Menambahkan amount dengan amount dari masukan
      * Kembalikan hasilnya pada objek baru MoneyInBank dengan interestRate dari this.interestRate dan totalLoanAmount dari this.totalLoanAmount
      */
+    @Override
     public MoneyTransaction add(MoneyTransaction money) {
         this.amount += money.getAmount();
         return this;
@@ -56,6 +57,7 @@ public class MoneyInBank implements MoneyTransaction{
      * Kembalikan hasilnya pada objek baru MoneyInBank dengan interestRate dari this.interestRate dan totalLoanAmount dari this.totalLoanAmount
      * Jika amount dari masukan lebih besar dari amount, maka objek yang dikembalikan memiliki amount = 0
      */
+    @Override
     public MoneyTransaction subtract(MoneyTransaction money) {
         if (this.amount < money.getAmount()) {
             this.amount = 0;
